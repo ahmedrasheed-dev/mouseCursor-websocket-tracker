@@ -4,21 +4,23 @@
   "description": "",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahmedrasheed-dev/mouseCursor-websocket-tracker.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ahmedrasheed-dev/mouseCursor-websocket-tracker/issues"
   },
   "homepage": "https://github.com/ahmedrasheed-dev/mouseCursor-websocket-tracker#readme",
   "dependencies": {
-    "wcs": "^0.0.2"
+    "nodemon": "^3.1.10",
+    "ws": "^8.18.3"
   }
 }
